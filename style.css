@@ -1,0 +1,26 @@
+html, body, div {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+}
+
+body {
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+
+}
+
+div {
+
+}
+
+h1 {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 140%;
+    color: greenyellow;
+}
+ h2 {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 120%;
+    color: greenyellow;
+ }
