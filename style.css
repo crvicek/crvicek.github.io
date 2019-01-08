@@ -10,6 +10,7 @@ body {
     color: white;
     padding: 2rem 0;
     width: 100%;
+    text-align: center;
 
 
 }
@@ -20,18 +21,17 @@ main {
     padding: 0 2rem;
 }
 
-div {
-
+footer {
 }
 
 h1 {
     font-family: 'ZCOOL KuaiLe', cursive;
-    font-size: 140%;
+    font-size: 160%;
     color: greenyellow;
 }
  h2 {
     font-family: 'ZCOOL KuaiLe', cursive;
-    font-size: 120%;
+    font-size: 140%;
     color: greenyellow;
  }
 

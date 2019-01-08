@@ -1,0 +1,113 @@
+html, body, div, main {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+}
+
+body {
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    padding: 2rem 0;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+section {
+    display:block;
+    width: 80%;
+    margin: 0 auto;
+}
+h1 {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 160%;
+    color: greenyellow;
+    line-height: 160%;
+    padding: 4rem 0 2rem 0;
+}
+h2 {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 140%;
+    color: greenyellow;
+}
+h3 {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 120%;
+    color: greenyellow;
+}
+p {
+    font-size: 100%;
+}
+img {
+    width: 100%;
+    min-width: 15rem;
+}
+#comments {
+    padding: 4rem 0 2rem 0;
+}
+
+.comments {
+    margin: 1rem auto;
+    border: 1px solid #CCC;
+    width: 100%;
+    min-width: 15rem;
+    padding: 2rem 0;
+}
+
+form {
+    display:block;
+    width: 80%;
+    margin: 0 auto;
+    min-width: 15rem;
+    padding: 2rem 0;
+    border: 1px solid #CCC;
+}
+  
+.FormSection {
+    margin-top: 1rem;
+    margin-bottom: 2rem
+}
+  
+label {
+    display: inline-block;
+    width: 50%;
+    line-height: 1.5;
+}
+  
+  input, textarea {
+    width: 50%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    min-height: 2rem;
+    font-size: 1.2rem;
+}
+  
+input:focus, textarea:focus {
+    border-color: greenyellow;
+    outline-color: greenyellow;
+}
+  
+textarea {
+    vertical-align: top;
+    height: 5rem;
+}
+  
+button {
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    background-color: black;
+    border: solid 1px transparent;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+}
+  
+button:hover,
+button:focus {
+    color: greenyellow;
+    border-color: greenyellow;
+}
+ 
+
