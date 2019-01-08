@@ -1,4 +1,4 @@
-html, body, div {
+html, body, div, main {
     padding: 0;
     margin: 0;
     font-size: 100%;
@@ -7,7 +7,17 @@ html, body, div {
 body {
     background-color: black;
     font-family: 'Lato', sans-serif;
+    color: white;
+    padding: 2rem 0;
+    width: 100%;
 
+
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    padding: 0 2rem;
 }
 
 div {
@@ -24,3 +34,18 @@ h1 {
     font-size: 120%;
     color: greenyellow;
  }
+
+.artObject {
+    max-width: 80%;
+    max-height: 20rem;
+    margin: 1rem;
+}
+
+
+#gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
