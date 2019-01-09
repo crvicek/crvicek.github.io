@@ -23,14 +23,17 @@ function submitComment() {
     h3.innerHTML = `${name} said:`;
     p.innerHTML = msg;
 
-    comment.classList.add('comment');
+    comment.classList.add('comments');
     comment.appendChild(h3);
     comment.appendChild(p);
 
-    //document.innerHTML.body..appendChild(comment);?
+    const commentSection = document.getElementById('comments');
+    commentSection.appendChild(comment);
 
+    inputField.value = null;
+    textArea.value = null;
     
-    console.log(comment);
+    //console.log(commentSection);
     //console.log(msg);
         
 
